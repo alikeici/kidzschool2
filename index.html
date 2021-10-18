@@ -76,7 +76,7 @@
             </div>
             <span class="text-white position-absolute icon-badge circle btn-primary text-size-xxs border-small-white ">3</span>
         </a>
-        <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
+        <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative d-none">cccc
             <div class="d-flex align-items-center justify-content-center bg-info border-radius p-4  shadow-sm">
                 <i class="fa fa-bars text-white"></i>
            </div>
@@ -519,8 +519,21 @@
             </div>
         </div>
         <!--Form-->
-    <form>
-    
+    <form class="d-flex flex-column flex-grow ml-6">
+        <h2 class="text-primary mb-2">Contact</h2>
+        <div class="position-relative mb-2">
+            <i class="fa fa-user text-warning position-absolute icon-form-control"></i>
+            <input type="text" placeholder="First name" class="form-control border-color-warning border-sm border-radius lh-md p-4 min-width-xxl">
+        </div>
+        <div class="position-relative mb-2">
+            <i class="fa fa-at text-danger position-absolute icon-form-control"></i>
+            <input type="text" placeholder="Email" class="form-control border-color-danger border-sm border-radius lh-md p-4 min-width-xxl">
+        </div>
+        <div class="position-relative mb-2">
+            <i class="fa fa-comments text-info position-absolute icon-form-control"></i>
+            <textarea type="text" placeholder="Write your message here..." class="form-control border-color-info border-sm border-radius lh-md p-4 min-width-xxl"></textarea>
+        </div>
+    <button class="btn-primary shadow-lg p-6 border-radius text-size-md text-uppercase text-bold border-transparent text-white">Send Message</button>
          </form>
     </div>
     </footer>
