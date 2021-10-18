@@ -1,6 +1,7 @@
 /* widths*/
 
 .max-width{max-width: 192rem;}
+.card-width{max-width: 60rem;}
 
 /*Position*/
 .position-relative{position: relative !important;}
@@ -59,6 +60,7 @@
 .text-decoration-none{text-decoration: none;}
 .text-center{text-align: center;}
 .text-uppercase{text-transform:uppercase}
+.text-bold{font-weight: bold;}
 
 .lh-sm{line-height: var(--line-height-sm);}
 .lh-md{line-height: var(--line-height-md);}
@@ -102,6 +104,7 @@ nav div a:not(:first-child){margin-left:var(--distance-12) ;}
 .logo-width{
     max-width: 13rem;
 }
+.img-lg-width{max-width: 60%;}
 
 /*slideshow*/
 .slider-width{width: 400%; /*100% per image*/ }
