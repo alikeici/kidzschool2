@@ -75,6 +75,7 @@
 .circle{
     border-radius: 100%;
 }
+.circle-lg{width: 15rem; height: 15rem;}
 
 
 .shadow-sm{box-shadow: var(--shadow-small-light);}
