@@ -3,7 +3,7 @@
 .max-width{max-width: 192rem;}
 .card-width{max-width: 60rem;}
 .width-lg{max-width: 50%;}
-.min-width-xxl{min-width: 95%;}
+.min-width-xxl{min-width: 100%;}
 
 /*Position*/
 .position-relative{position: relative !important;}
@@ -41,10 +41,13 @@
 .mt-15, .my-15{margin-top: var(--distance-15);}
 .mb-15, .my-15{margin-bottom: var(--distance-15);}
 
+
+
 .mr-4, .mx-4{margin-right: var(--distance-4);}
 .ml-4, .mx-4{margin-left: var(--distance-4);}
 .mr-6, .mx-6{margin-right: var(--distance-6);}
 .ml-6, .mx-6{margin-left: var(--distance-6);}
+
 
 .p-4{padding: var(--distance-4);}
 .p-5{padding: var(--distance-5);}

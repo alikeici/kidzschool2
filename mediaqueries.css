@@ -1,0 +1,29 @@
+@media only screen and (max-width: 68.75em){ /*1100px / 16px=68.75em, används endast för skärmbruk samt att maxbredden får bara vara 68.75em */
+    html{font-size: 50%;} 
+}
+
+@media screen and (max-width:56.25em){
+    .f-width{max-width: 50% !important;} /* 900 / 16px= 56.25 bredden på "Our Features" om skärmen är 1115px eller mindre, radar "Our Features" upp efter varandra istället för bredvid varandra, important används för att den ska träda i kraft direkt och inte kunna återgå till den gamla som vi lagt in i Layouten. */ 
+
+}
+
+@media screen and (max-width:37.5em){ /*600px / 16px = 56.25em*/
+    .f-width{max-width: 100% !important;}
+    .mb-sm-12{margin-bottom: var(--distance-12);}
+    .d-sm-none{display: none !important;}
+    .d-sm-block{display: block !important;}
+    nav div a:not(:first-child){margin-left: 2rem;}
+    .flex-sm-column{flex-direction: column;}
+    footer>div>div{max-width: 100% !important;}
+    footer>div>div{margin-bottom: 2rem;}
+    /*.img-sm-width{width: 150% !important;}  kan göras på två olika sätt, valde att gå på den andra.*/
+    section>div>img{width: 150% !important;}
+
+}
+
+@media screen and (max-width:31.25em){ /*500px / 16px = 31.25em*/
+    .flex-xs-column{flex-direction: column;}
+    .img-xs-width{max-width: 150% !important;}
+    
+
+}
